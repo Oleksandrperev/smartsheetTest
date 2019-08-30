@@ -24,7 +24,7 @@ public class AddDeleteColumnTest extends BaseTest {
         Reporter.log("User clicked button \"Login\"");
 
         /**
-         Verify that an amount of column before deleting is equel 6 (six)
+         Verify that an amount of columns before deleting is equel 6 (six)
          */
 
         int amountOfColumnsBefore = sheetPage.getAmountOfColumn();
@@ -57,7 +57,7 @@ public class AddDeleteColumnTest extends BaseTest {
         Reporter.log("User deleted last column");
 
         /**
-         Verify that an amount of column after deleting is equel 5 (five)
+         Verify that an amount of columns after deleting is equel 5 (five)
          */
 
         int amountOfColumnsAfter = sheetPage.getAmountOfColumn();
@@ -84,7 +84,7 @@ public class AddDeleteColumnTest extends BaseTest {
         Reporter.log("User added column 6");
 
         /**
-         Verify that an amount of column after adding is equel 6 (six)
+         Verify that an amount of columns after adding is equel 6 (six)
          */
 
         int amountOfColumnsAfterAdding = sheetPage.getAmountOfColumn();
